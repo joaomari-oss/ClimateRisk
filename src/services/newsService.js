@@ -6,21 +6,21 @@ const BASE = 'https://gnews.io/api/v4/search';
 export const MOCK_CORPORATE = [
   {
     id: 'm1',
-    title: 'Boa Safra registra queda de 12% no volume de sementes vendidas no 3T24 em razão da irregularidade hídrica no Centro-Oeste.',
-    source: 'Valor Econômico', date: 'Abr 2026', impactType: 'neutral', impact: 'Receita',
-    url: 'https://valor.globo.com/agronegocios/busca/?q=boa+safra+sementes+SOJA3',
+    title: 'Boa Safra registra queda de 33% na receita no 3T24 por atraso no plantio',
+    source: 'Investalk BB', date: 'Out 2024', impactType: 'negative', impact: 'Receita',
+    url: 'https://investalk.bb.com.br/noticias/Mercado/soja3-bb-avalia-resultado-3T24',
   },
   {
     id: 'm2',
-    title: 'Gestão amplia capital de giro em R$ 85M para cobrir pressão de inadimplência de cooperativas afetadas pela seca.',
-    source: 'Reuters', date: 'Mar 2026', impactType: 'warning', impact: 'Capital',
-    url: 'https://www.reuters.com/search/news?blob=boa+safra+sementes+soja+brasil',
+    title: 'Inadimplência no crédito rural bate recorde histórico e chega a 11,4% em 2025',
+    source: 'Mundo Coop', date: '2025', impactType: 'negative', impact: 'Crédito Rural',
+    url: 'https://mundocoop.com.br/destaque/crescimento-da-inadimplencia-no-campo-leva-governo-a-discutir-mudancas-no-credito-rural/',
   },
   {
     id: 'm3',
-    title: 'Inadimplência de clientes no MATOPIBA sobe para 8,3% no trimestre, acima da estimativa de 5,5% do mercado.',
-    source: 'InfoMoney', date: 'Mar 2026', impactType: 'negative', impact: 'Inadimplência',
-    url: 'https://infomoney.com.br/busca/?q=SOJA3+inadimplencia+MATOPIBA',
+    title: 'Serasa: 8,3% da população rural estava inadimplente no 3T25',
+    source: 'Notícias Agrícolas', date: '3T25', impactType: 'negative', impact: 'Inadimplência',
+    url: 'https://www.noticiasagricolas.com.br/noticias/agronegocio/414079-inadimplencia-no-agro-8-3-da-populacao-rural-foi-afetada-no-terceiro-trimestre-de-2025-revela-serasa-experian.html',
   },
 ];
 
