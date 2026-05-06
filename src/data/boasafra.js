@@ -13,7 +13,7 @@ export const BOA_SAFRA = {
   horizon: 'Curto/Médio',
   horizonPeriod: '3–12 meses',
   criticalRegions: ['MT', 'GO', 'MS', 'BA', 'PI'],
-  lastUpdate: '15 Abr 2026 · 18:30',
+  lastUpdate: '15 Mai 2026 · 18:30',
 
   alerts: [
     {
@@ -189,7 +189,7 @@ export const BOA_SAFRA = {
       { label: 'Ticker', value: 'SOJA3' },
       { label: 'Mercado', value: 'B3 · Novo Mercado' },
       { label: 'Rating Climático', value: 'C · Moderado-Alto' },
-      { label: 'Última Revisão', value: 'Abr 2026' },
+      { label: 'Última Revisão', value: 'Mai 2026' },
     ],
   },
 };
