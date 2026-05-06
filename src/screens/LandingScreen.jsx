@@ -112,36 +112,44 @@ export function LandingScreen({ onEnter, onGoToDashboard }) {
                   transition: 'border-color 0.18s, background 0.18s, transform 0.18s',
                   position: 'relative',
                 }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(251,193,2,0.4)'; e.currentTarget.style.background = '#282828'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(255,210,63,0.4)'; e.currentTarget.style.background = '#282828'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'; e.currentTarget.style.background = '#1F1F1F'; e.currentTarget.style.transform = 'none'; }}
               >
-                <span style={{ position: 'absolute', top: 16, right: 16, fontSize: 10, fontWeight: 700, letterSpacing: '0.08em', color: '#FBC102', background: 'rgba(251,193,2,0.08)', border: '1px solid rgba(251,193,2,0.25)', borderRadius: 20, padding: '3px 10px' }}>
+                <span style={{ position: 'absolute', top: 16, right: 16, fontSize: 10, fontWeight: 700, letterSpacing: '0.08em', color: '#FFD23F', background: 'rgba(255,210,63,0.08)', border: '1px solid rgba(255,210,63,0.25)', borderRadius: 20, padding: '3px 10px' }}>
                   DISPONÍVEL
                 </span>
-                <div style={{ width: 48, height: 48, borderRadius: 12, background: 'rgba(251,193,2,0.1)', border: '1px solid rgba(251,193,2,0.25)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20 }}>
-                  <Briefcase size={22} color="#FBC102" />
+                <div style={{ width: 48, height: 48, borderRadius: 12, background: 'rgba(255,210,63,0.1)', border: '1px solid rgba(255,210,63,0.25)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20 }}>
+                  <Briefcase size={22} color="#FFD23F" />
                 </div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: '#FBC102', margin: '0 0 10px' }}>Minha Carteira</h3>
+                <h3 style={{ fontSize: 17, fontWeight: 700, color: '#FFD23F', margin: '0 0 10px' }}>Minha Carteira</h3>
                 <p style={{ color: '#666', fontSize: 13, lineHeight: 1.65, margin: '0 0 22px' }}>
                   Analise o risco climático consolidado da sua carteira de investimentos.
                 </p>
-                <span style={{ fontSize: 13, fontWeight: 600, color: '#FBC102', display: 'inline-flex', alignItems: 'center', gap: 5 }}>
+                <span style={{ fontSize: 13, fontWeight: 600, color: '#FFD23F', display: 'inline-flex', alignItems: 'center', gap: 5 }}>
                   Acessar <ArrowRight size={13} />
                 </span>
               </button>
 
               {/* Card 3: Em Breve */}
-              <div style={{ background: '#1F1F1F', border: '1px solid rgba(255,255,255,0.07)', borderRadius: 16, padding: '28px 24px', position: 'relative', opacity: 0.5 }}>
-                <span style={{ position: 'absolute', top: 16, right: 16, fontSize: 10, fontWeight: 700, letterSpacing: '0.08em', color: '#555', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 20, padding: '3px 10px' }}>
+              <div
+                style={{ background: '#1F1F1F', border: '1px solid rgba(255,255,255,0.07)', borderRadius: 16, padding: '28px 24px', position: 'relative', transition: 'border-color 0.18s, background 0.18s, transform 0.18s' }}
+                onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(220,165,0,0.4)'; e.currentTarget.style.background = '#282828'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+                onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.07)'; e.currentTarget.style.background = '#1F1F1F'; e.currentTarget.style.transform = 'none'; }}
+              >
+                <span style={{ position: 'absolute', top: 16, right: 16, fontSize: 10, fontWeight: 700, letterSpacing: '0.08em', color: '#DCA500', background: 'rgba(220,165,0,0.1)', border: '1px solid rgba(220,165,0,0.3)', borderRadius: 20, padding: '3px 10px' }}>
                   EM BREVE
                 </span>
-                <div style={{ width: 48, height: 48, borderRadius: 12, background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.06)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20 }}>
-                  <Sparkles size={22} color="#555" />
+                <div style={{ width: 48, height: 48, borderRadius: 12, background: 'rgba(220,165,0,0.1)', border: '1px solid rgba(220,165,0,0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20 }}>
+                  <Sparkles size={22} color="#DCA500" />
                 </div>
-                <h3 style={{ fontSize: 17, fontWeight: 700, color: '#555', margin: '0 0 10px' }}>Em Breve</h3>
-                <p style={{ color: '#444', fontSize: 13, lineHeight: 1.65, margin: 0 }}>
+                <h3 style={{ fontSize: 17, fontWeight: 700, color: '#DCA500', margin: '0 0 4px' }}>Comparação entre empresas</h3>
+                <p style={{ color: '#9A7200', fontSize: 11, fontWeight: 600, letterSpacing: '0.05em', margin: '0 0 10px' }}>Em breve</p>
+                <p style={{ color: '#666', fontSize: 13, lineHeight: 1.65, margin: '0 0 22px' }}>
                   Nova funcionalidade em desenvolvimento.
                 </p>
+                <span style={{ fontSize: 13, fontWeight: 600, color: '#DCA500', display: 'inline-flex', alignItems: 'center', gap: 5, opacity: 0.6 }}>
+                  Em breve
+                </span>
               </div>
             </div>
           </motion.div>

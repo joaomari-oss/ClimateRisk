@@ -6,15 +6,15 @@ const BASE = 'https://gnews.io/api/v4/search';
 export const MOCK_CORPORATE = [
   {
     id: 'm1',
-    title: 'Boa Safra registra queda de 33% na receita no 3T24 por atraso no plantio',
-    source: 'Investalk BB', date: 'Out 2024', impactType: 'negative', impact: 'Receita',
-    url: 'https://investalk.bb.com.br/noticias/Mercado/soja3-bb-avalia-resultado-3T24',
+    title: 'Boa Safra tem preço-alvo cortado; saiba o porquê',
+    source: 'EuQueroInvestir', date: 'Abr 2026', impactType: 'negative', impact: 'Receita',
+    url: 'https://euqueroinvestir.com/acoes/boa-safra-tem-preco-alvo-cortado-saiba-o-porque',
   },
   {
     id: 'm2',
-    title: 'Inadimplência no crédito rural bate recorde histórico e chega a 11,4% em 2025',
-    source: 'Mundo Coop', date: '2025', impactType: 'negative', impact: 'Crédito Rural',
-    url: 'https://mundocoop.com.br/destaque/crescimento-da-inadimplencia-no-campo-leva-governo-a-discutir-mudancas-no-credito-rural/',
+    title: 'Boa Safra (SOJA3) registra prejuízo no 4T25',
+    source: 'E-Investidor (Estadão)', date: '2025', impactType: 'negative', impact: 'Crédito Rural',
+    url: 'https://einvestidor.estadao.com.br/mercado/boa-safra-soja3-4t25-prejuizo-sementes-ceo/',
   },
   {
     id: 'm3',
